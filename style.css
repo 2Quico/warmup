@@ -1,0 +1,41 @@
+*{
+	margin: 5px;padding: 0;
+}
+.wrap{
+	position: relative;
+}
+.nav{
+	position: fixed;
+	z-index: 1;
+}
+.menu{
+	margin-top: 5px;
+	margin-left: 10px; 
+	list-style: none;
+}
+.menu li{
+	float: left;
+	width: 80px;
+	text-align: center;
+
+}
+.menu li a{
+	display: block;
+	padding: 5px;
+	font: 15px/25px "Microsoft YaHei" Consola;
+	text-decoration: none;
+	background-color: lightgrey;
+}
+.menu li a:hover{
+	background-color: orange;color: white;
+}
+.main{
+	position: absolute;top: 100px;left: 10px;
+}
+i{
+	display: inline-block;
+	width: 27px;height: 27px;
+	background: url(imgs/logo.jpg);
+	background-position: 0 0;
+	vertical-align: middle;
+}
